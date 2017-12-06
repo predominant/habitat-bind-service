@@ -1,0 +1,18 @@
+sleep = 3600
+
+[mysql]
+host = "mysql.example.com"
+port = 3306
+user = "db_user"
+pass = "secret"
+db = "my_database_name"
+
+[elasticsearch]
+uri = "http://es.example.com:9200"
+
+[rabbitmq]
+host = "rmq.example.com"
+port = 15672
+queue = "fancy_queue"
+user = "rmq_user"
+pass = "secret"

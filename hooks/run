@@ -1,0 +1,13 @@
+#!/bin/sh
+
+exec 2>&1
+
+echo "Bind Service starting"
+
+# Wait for a long long time, in a galaxy far far away.
+while true; do
+  sleep {{cfg.sleep}}
+  echo  "Beep"
+  sleep {{cfg.sleep}}
+  echo  "Boop"
+done
