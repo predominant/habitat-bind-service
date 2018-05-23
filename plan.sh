@@ -1,7 +1,7 @@
 pkg_name=service-bind
 pkg_origin=predominant
 pkg_version=1.0.0
-pkg_maintainer="Graham Weldon <graham.weldon@grahamweldon.com>"
+pkg_maintainer="Graham Weldon <graham@grahamweldon.com>"
 pkg_license=('None')
 
 pkg_deps=(
